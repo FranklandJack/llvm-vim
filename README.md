@@ -1,1 +1,3 @@
-# llvm-vm
+# llvm-vim
+This plugin is taken directly from the llvm source in `llvm/utils/vim` and I did not write it and do not own it. I have chosen to host it here since it makes adding the plugin as a git submodule to my config .vim easier and may do the same for someone else. The plugin functionality is explained in the README in `llvm/utils/vim` along with an example vimrc. It basically provides syntax highlighting for the llvm IR/assembly human readable `.ll` files and the tablegen `.td` files as well as indentation settings and some other things for llvm specific filetypes. There are also some useful llvm specific settings in the `vimrc` provided in `llvm/utils/vim` which I have not added here but which should be copied into your `vimrc` directly if you want them.
+ 
